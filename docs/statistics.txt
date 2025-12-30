@@ -1,0 +1,7 @@
+İSTATİSTİKLER VE GÜVENLİK ANALİZİ
+
+- Yöntem: Kaotik Lojistik Harita (Deterministic)
+- Rastgelelik Seviyesi: Kısa vadede yüksek dağılım, uzun vadede periyodik olmayan yapı.
+- Hassasiyet: Başlangıç değerindeki (seed) çok küçük bir değişim, tamamen farklı bir dizi üretir (Kelebek Etkisi).
+- Tahmin Edilebilirlik: Denklem ve seed biliniyorsa %100 tahmin edilebilir (Kriptografik olarak güvenli değildir).
+- Performans: O(n) zaman karmaşıklığı ile son derece hızlıdır.
