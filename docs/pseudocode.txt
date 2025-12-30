@@ -1,0 +1,12 @@
+ALGORİTMA: Logistic Map RNG
+
+1. BAŞLAT
+2. GİRDİ: seed (0 ile 1 arasında bir ondalık sayı)
+3. GİRDİ: iterasyon_sayisi
+4. TANIMLA: r = 4.0 (Kaos katsayısı)
+5. DÖNGÜ (iterasyon_sayisi kadar):
+    a. seed = r * seed * (1 - seed)
+    b. tam_sayi = tam_sayi_yap(seed * 256)
+    c. LISTEYE_EKLE(tam_sayi)
+6. ÇIKTI: Üretilen sayılar listesi
+7. BİTİR
